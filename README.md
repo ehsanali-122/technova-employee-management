@@ -2,31 +2,39 @@
 
 
 
-\## Project Description
+A beginner-friendly Python command-line application for managing employee records.
 
-A beginner-friendly Python console application
 
-for managing employee records.
+
+\## Project Overview
+
+
+
+This project helps a company manage employee information through a simple command-line interface.
 
 
 
 \## Features
 
+
+
 \- Add new employees
 
-\- View all employees
+\- View employee records
 
-\- Search employees by ID
+\- Store employee ID, name, department, and salary
 
-\- Validate employee salary
+\- Validate salary input
 
-\- Exit the application
+\- Prevent invalid salary values
 
 
 
-\## Technologies
+\## Technologies Used
 
-\- Python
+
+
+\- Python 3
 
 \- Git
 
@@ -34,17 +42,89 @@ for managing employee records.
 
 
 
+\## Project Structure
+
+
+
+```text
+
+technova-employee-management/
+
+├── .gitignore
+
+├── README.md
+
+└── day07\_employee\_management.py
+
+```
+
+
+
 \## How to Run
 
 
 
-1\. Install Python.
+1\. Install Python 3.
 
-2\. Open the project folder.
-
-3\. Run this command:
+2\. Clone this repository:
 
 
 
-&#x20;  python day07\_employee\_management.py
+```bash
+
+git clone https://github.com/ehsanali-122/technova-employee-management.git
+
+```
+
+
+
+3\. Open the project folder.
+
+4\. Run the application:
+
+
+
+```bash
+
+python day07\_employee\_management.py
+
+```
+
+
+
+\## Learning Objectives
+
+
+
+This project demonstrates:
+
+
+
+\- Python functions
+
+\- Lists and dictionaries
+
+\- Loops and conditional statements
+
+\- Exception handling
+
+\- Input validation
+
+\- Git and GitHub basics
+
+
+
+\## Author
+
+
+
+Python Developer in Training
+
+
+
+\## License
+
+
+
+This project is available for educational purposes.
 
